@@ -1,30 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
     <title>Awesome books</title>
-</head>
-<body>
-  
+  </head>
+  <body>
     <section class="list-section" id="list">
-            <h1>All Awesome Books</h1>
-            <div id="book-list"></div>
-          </section>
-
+      <h1>All Awesome Books</h1>
+      <div id="book-list"></div>
+    </section>
+    <div class="line-bar"></div>
     <section id="add-book">
-            <h2>Add Book</h2>
-            <form id="book-form" method="post">
-              <label for="title"></label>
-              <input id= 'title' type="text" placeholder="title" required> <br>
-              <label for="author"></label> <br>
-              <input id='author' type="text" placeholder="author" required> <br> <br>
-              <button type="button" id="add-btn">Add</button>
-            </form>
-            <p id="message"></p>
-          </section>
-<script src="books.js"></script>
-</body>
+      <h2>Add a new Book</h2>
+      <form id="book-form" method="post">
+        <label for="title"></label>
+        <input id="title" type="text" placeholder="title" required />
+        <label for="author"></label>
+        <input id="author" type="text" placeholder="author" required />
+        <button type="button" id="add-btn">Add</button>
+      </form>
+      <p id="message"></p>
+    </section>
+    <script src="books.js"></script>
+  </body>
 </html>

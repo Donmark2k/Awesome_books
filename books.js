@@ -46,11 +46,9 @@ function printBooks() {
   shelf.forEach((book, index) => {
     innerhtml += `
     <div>
-        <div>"${book.title}" </div><div> ${book.author} </div>
+        <p>"${book.title}" by ${book.author} </p> 
         <button id="remove-btn${index}">Remove</button>
-            </div>
-            <hr>
-        `;
+            </div>`;
   });
 
   booklist.innerHTML = innerhtml;
