@@ -19,15 +19,18 @@ REQUIRED SECTIONS:
 - Acknowledgements
 - License
 
+OPTIONAL SECTIONS:
+- FAQ
+
 After you're finished please remove all the comments and instructions!
 -->
 
 <div align="center">
-
-  <img src="" alt="logo" width="140"  height="auto" />
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Awesome books </b></h3>
+  <h3><b>Microverse README Template</b></h3>
 
 </div>
 
@@ -52,43 +55,42 @@ After you're finished please remove all the comments and instructions!
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Awesome books] <a name="about-project"></a>
+# 📖 [Awesome Books] <a name="about-project"></a>
 
 **[Awesome books]** is a project designed to store, add and delete books;
 
 
 ## 🛠 Built With <a name="built-with"></a>
 
-VS code, git, github, 
+<!-- ### Tech Stack <a name="tech-stack"></a>
 
-### Tech Stack <a name="tech-stack"></a>
+> Describe the tech stack and include only the relevant sections that apply to your project. -->
 
-- Stylelint was used to check errors in style.css.
-- Webhint was used to check errors in index.html.
-- Eslint was used to check for errors in menu.js.
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="#">HTML</a></li>
+    <li><a href="#">CSS</a></li>
+    <li><a href="#">JavaScript</a></li>
   </ul>
 </details>
 
-<details>
+<!-- <details>
   <summary>Server</summary>
   <ul>
     <li><a href="https://expressjs.com/">Express.js</a></li>
   </ul>
-</details>
+</details> -->
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="#">LocalStorage</a></li>
   </ul>
 </details>
 
@@ -96,14 +98,16 @@ VS code, git, github,
 
 ### Key Features <a name="key-features"></a>
 
+
 - **[Create a collection that keeps a list of books]**
 - **[Create a function to add a new book to the collection]**
 - **[Display all books saved in the collection in the top part of the page]**
 - **[When a user clicks the "Add" button, a new book is added to the collection]**
 - **[When a user clicks the "Remove" button,the correct book is removed from the collection.]**
 - **[The data is preserved in the browser's memory by using localStorage]**
-- **[see more guest speakers on clicking see more]**
- 
+- **[Use JavaScript classes instead of objects and arrays]**
+- **[You can use objects and arrays, but do it inside classes]**
+- **[Create class methods to add and remove books]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,9 +115,9 @@ VS code, git, github,
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+> Add a link to your deployed project.
 
-<!-- - Here is a [Live Demo Link](https://donmark2k.github.io/GD_summit/) -->
-
+- [Live Demo Link](https://victor-chiemerie.github.io/Awesome-books/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,7 +125,9 @@ VS code, git, github,
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-You have to clone the repository first, then run it on your browser
+> Describe how a new developer could make use of your project.
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
@@ -141,32 +147,38 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
-https://github.com/Donmark2k/Awesome_books.git
-<!--
+https://github.com/victor-chiemerie/Awesome-books.git
+
+
 Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:donmark2k/GD_summit.git
+  git clone git@github.com:myaccount/my-project.git
 ```
---->
 
 ### Install
 
 Install this project with:
+- cd my-folder
+-  git clone https://github.com/victor-chiemerie/Awesome-books.git
 
-<!--
+install npx
+
 Example command:
 
 ```sh
   cd my-project
-  gem install
+  npx install
 ```
 --->
 
 ### Usage
 
 To run the project, execute the following command:
+- Open the cloned folder on the VS code
+- Open the live server
+
 
 <!--
 Example command:
@@ -179,7 +191,6 @@ Example command:
 ### Run tests
 
 To run tests, run the following command:
-
 - To check for stylelint errors, run npx stylelint "**/*.css{css,scss}".
 - To check for javascript error, run npx eslint .
 
@@ -194,9 +205,11 @@ Example command:
 ### Deployment
 
 You can deploy this project using:
+- Github pages
 
+Github pages
 
-
+<p>follow <a href="https://www.w3schools.com/git/git_remote_pages.asp?remote=github">these steps</a> for example</p>
 <!--
 Example:
 
@@ -209,30 +222,28 @@ Example:
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="author"></a>
+## 👥 Authors <a name="authors"></a>
 
-👤 **Author 1**
+> Mention all of the collaborators of this project.
+
+👤 **Victor Chiemerie**
+
+- GitHub: [@githubhandle](https://github.com/Victor-chiemerie)
+- Twitter: [@twitterhandle](https://twitter.com/VictorChiemer20)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/victor-chiemerie-460475246/)
+
+ 👤**Chukwuemeka Ochuba**
 
 - GitHub: [@Donmark2k](https://github.com/Donmark2k)
 - Twitter: [@Donmark2k](https://twitter.com/donmark2k)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/chukwuemeka-ochuba/)
 
-👤 **Author 2**
-
-- GitHub: [@Donmark2k](https://github.com/Donmark2k)
-- Twitter: [@Donmark2k](https://twitter.com/donmark2k)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/chukwuemeka-ochuba/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-
-- [1 ] **[I will include livechat]**
-
-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -243,13 +254,15 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Donmark2k/Awesome_books/issues).
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
+
+> Write a message to encourage readers to support your project
 
 If you like this project...
 
@@ -258,27 +271,32 @@ If you like this project...
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-I would like to appreciate my coding partner [Victor Chiemerie]
+
+I would like to appreciate my coding partner [Victor Chiemerie](https://github.com/Victor-chiemerie)
+
+I would like to thank...
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ <a name="faq"></a>
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-- **[Are you sure that you are owner of this work]**
+> Add at least 2 questions new developers would ask when they decide to use your project.
 
-  - [Yes, I am]
+- **[Question_1]**
 
-- **[Can you make the work to be responsive]**
+  - [Answer_1]
 
-  - [yes]
+- **[Question_2]**
+
+  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
-
 
 This project is [MIT](MIT.md) licensed.
 
