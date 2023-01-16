@@ -74,3 +74,37 @@ buttonAdd.addEventListener('click', (event) => {
   inputTitle.value = '';
   inputAuthor.value = '';
 });
+
+const date = document.getElementById('date');
+const listLink = document.getElementById('list-link');
+const addLink = document.getElementById('add-link');
+const contactLink = document.getElementById('contact-link');
+const listSection = document.querySelector('.list-section');
+const addSection = document.querySelector('.add-section');
+const contactSection = document.querySelector('.contact-section');
+
+function showDateTime() {
+  const d = new Date();
+  date.innerHTML = d.toLocaleString('en-GB');
+}
+showDateTime();
+setInterval(showDateTime, 1);
+
+listLink.addEventListener('click', () => {
+  listSection.style.display = 'block';
+  addSection.style.display = 'none';
+  contactSection.style.display = 'none';
+});
+
+addLink.addEventListener('click', () => {
+  document.getElementById('message').innerHTML = '';
+  listSection.style.display = 'none';
+  addSection.style.display = 'block';
+  contactSection.style.display = 'none';
+});
+
+contactLink.addEventListener('click', () => {
+  listSection.style.display = 'none';
+  addSection.style.display = 'none';
+  contactSection.style.display = 'block';
+});
