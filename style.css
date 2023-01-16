@@ -5,3 +5,70 @@
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+body {
+  width: 60%;
+  align-content: center;
+  margin: 12px auto 12px auto;
+}
+
+#list h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#book-list {
+  border: 2px solid black;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#book-list button {
+  box-shadow: 2px 2px black;
+  width: 48px;
+}
+
+#book-list div {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+#book-list div:nth-child(odd) {
+  background: rgba(245, 239, 230, 1);
+  width: 100%;
+}
+
+.line-bar {
+  display: block;
+  border: 2px solid black;
+  width: 15%;
+  margin: 24px auto;
+}
+
+#add-book h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+  margin: 6px auto;
+  width: 40%;
+}
+
+input {
+  width: 328px;
+  padding: 4px;
+}
+
+#add-btn {
+  box-shadow: 2px 2px black;
+  align-self: flex-end;
+}
+
+#message {
+  text-align: center;
+}
